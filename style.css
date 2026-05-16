@@ -1,0 +1,65 @@
+:root {
+    --clr--neon: hsl(317, 100%, 54%);
+    --clr-big: hsl(323, 21%, 16%);
+
+}
+body{
+    background: linear-gradient(to right, #3f5efb, #fc466b);
+}
+
+.wrraper {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin: 5%;
+    font-size: 3rem;
+    color: rgb(208, 214, 218);
+}
+
+.dice-area{
+    margin: 5px 150px;
+    text-align:center;
+    display: inline-block;
+}
+
+p{
+    font-size: 2rem;
+    color: rgb(208, 214, 218);
+}
+
+img{
+    width: 150px;
+}
+
+.neon-button{
+    font-size:  1.5rem;
+    position: absolute;
+    top: 90%;
+    left:  45%;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--clr--neon);
+    border: var(--clr--neon) 0.125em solid;
+    padding: 0.25em 1em;
+    border-radius: 0.25em;
+    background: none;
+    text-shadow: 0 0 0.125em;
+}
+
+.refresh {
+    position: absolute;
+    top: 90%;
+    left:  45%;
+    background-color: #4594e3;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
